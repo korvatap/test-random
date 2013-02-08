@@ -1,7 +1,14 @@
-/*! \brief Super description by underground testing mices.
-*          Very nice description
-*
+/** 
+* Super description by underground testing mices.
+* 
+* @file doxygen.cpp
+* @author Team Stateplex
+* @date 8.2.2013
+* @see doxygen.h
+
 * Detailed description starts here.
+* This is the detailed description
+* which is very nice
 */
 
 #include "doxygen.h"
