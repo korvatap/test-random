@@ -1,0 +1,136 @@
+\hypertarget{classDoxygen}{\section{Doxygen Class Reference}
+\label{classDoxygen}\index{Doxygen@{Doxygen}}
+}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classDoxygen_aa357d9d47e3f1d78d20029894f927379}{Mice} \{ \hyperlink{classDoxygen_aa357d9d47e3f1d78d20029894f927379a9d6156a0661afa9b73da2cdd97ca5e71}{mouse}, 
+\hyperlink{classDoxygen_aa357d9d47e3f1d78d20029894f927379a6c89fd478d71f650e90e79313744a22a}{mouse2}
+ \}
+\begin{DoxyCompactList}\small\item\em An doxygen more detailed doxygen description. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\void \hyperlink{classDoxygen_ac0292355fe89971baba0552261a81a43}{change\-Variables} (T \&variable, T \&variable2)
+\begin{DoxyCompactList}\small\item\em A template function that switches values between variables. \end{DoxyCompactList}\item 
+void \hyperlink{classDoxygen_ada3101a3a7a100ffbe84521d9cc33b91}{print\-Mysterious\-Text} (const std\-::string \&mstr)
+\begin{DoxyCompactList}\small\item\em Mysterious printing. \end{DoxyCompactList}\item 
+\hypertarget{classDoxygen_a4692ac956c41a4e0e44cb3c0bdc24986}{void \hyperlink{classDoxygen_a4692ac956c41a4e0e44cb3c0bdc24986}{print\-Setti} ()}\label{classDoxygen_a4692ac956c41a4e0e44cb3c0bdc24986}
+
+\begin{DoxyCompactList}\small\item\em Prints setti variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classDoxygen_a9ac38fe06a32e600b04fbd66a99a81f3}{get\-Setti} ()
+\begin{DoxyCompactList}\small\item\em Returns the variable setti. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classDoxygen_afa8d33dba539aae9b47b5d644bf62487}{int \hyperlink{classDoxygen_afa8d33dba539aae9b47b5d644bf62487}{setti}}\label{classDoxygen_afa8d33dba539aae9b47b5d644bf62487}
+
+\begin{DoxyCompactList}\small\item\em integer variable \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classDoxygen_aa357d9d47e3f1d78d20029894f927379}{\index{Doxygen@{Doxygen}!Mice@{Mice}}
+\index{Mice@{Mice}!Doxygen@{Doxygen}}
+\subsubsection[{Mice}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Doxygen\-::\-Mice}}}\label{classDoxygen_aa357d9d47e3f1d78d20029894f927379}
+
+
+An doxygen more detailed doxygen description. 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{mouse@{mouse}!Doxygen@{Doxygen}}\index{Doxygen@{Doxygen}!mouse@{mouse}}\item[{\em 
+\hypertarget{classDoxygen_aa357d9d47e3f1d78d20029894f927379a9d6156a0661afa9b73da2cdd97ca5e71}{mouse}\label{classDoxygen_aa357d9d47e3f1d78d20029894f927379a9d6156a0661afa9b73da2cdd97ca5e71}
+}]enum value 1 \index{mouse2@{mouse2}!Doxygen@{Doxygen}}\index{Doxygen@{Doxygen}!mouse2@{mouse2}}\item[{\em 
+\hypertarget{classDoxygen_aa357d9d47e3f1d78d20029894f927379a6c89fd478d71f650e90e79313744a22a}{mouse2}\label{classDoxygen_aa357d9d47e3f1d78d20029894f927379a6c89fd478d71f650e90e79313744a22a}
+}]enum value 2 \end{description}
+\end{Desc}
+
+\begin{DoxyCode}
+25         \{
+26                 \hyperlink{classDoxygen_aa357d9d47e3f1d78d20029894f927379a9d6156a0661afa9b73da2cdd97ca5e71}{mouse},  
+27                 \hyperlink{classDoxygen_aa357d9d47e3f1d78d20029894f927379a6c89fd478d71f650e90e79313744a22a}{mouse2}, 
+28         \};
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classDoxygen_ac0292355fe89971baba0552261a81a43}{\index{Doxygen@{Doxygen}!change\-Variables@{change\-Variables}}
+\index{change\-Variables@{change\-Variables}!Doxygen@{Doxygen}}
+\subsubsection[{change\-Variables}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void Doxygen\-::change\-Variables (
+\begin{DoxyParamCaption}
+\item[{T \&}]{variable, }
+\item[{T \&}]{variable2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classDoxygen_ac0292355fe89971baba0552261a81a43}
+
+
+A template function that switches values between variables. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em variable} & as an undefined variable \\
+\hline
+{\em variable2} & as an undefined variable \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+37         \{
+38                 T temp;
+39                 temp = variable;
+40                 variable = variable2;
+41                 variable2 = temp;
+42         \};
+\end{DoxyCode}
+\hypertarget{classDoxygen_a9ac38fe06a32e600b04fbd66a99a81f3}{\index{Doxygen@{Doxygen}!get\-Setti@{get\-Setti}}
+\index{get\-Setti@{get\-Setti}!Doxygen@{Doxygen}}
+\subsubsection[{get\-Setti}]{\setlength{\rightskip}{0pt plus 5cm}int Doxygen\-::get\-Setti (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classDoxygen_a9ac38fe06a32e600b04fbd66a99a81f3}
+
+
+Returns the variable setti. 
+
+\begin{DoxyReturn}{Returns}
+setti integer value 
+\end{DoxyReturn}
+
+\begin{DoxyCode}
+46 \{
+47         \textcolor{keywordflow}{return} \hyperlink{classDoxygen_afa8d33dba539aae9b47b5d644bf62487}{setti};
+48 \}
+\end{DoxyCode}
+\hypertarget{classDoxygen_ada3101a3a7a100ffbe84521d9cc33b91}{\index{Doxygen@{Doxygen}!print\-Mysterious\-Text@{print\-Mysterious\-Text}}
+\index{print\-Mysterious\-Text@{print\-Mysterious\-Text}!Doxygen@{Doxygen}}
+\subsubsection[{print\-Mysterious\-Text}]{\setlength{\rightskip}{0pt plus 5cm}void Doxygen\-::print\-Mysterious\-Text (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{mstr}
+\end{DoxyParamCaption}
+)}}\label{classDoxygen_ada3101a3a7a100ffbe84521d9cc33b91}
+
+
+Mysterious printing. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em mstr} & an string argument. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyCode}
+36 \{
+37         cout << mstr << endl;
+38 \}
+\end{DoxyCode}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{doxygen_8h}{doxygen.\-h}\item 
+doxygen.\-cpp\end{DoxyCompactItemize}
