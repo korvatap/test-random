@@ -2,7 +2,7 @@
  * main.cpp
  *
  *  Created on: Feb 8, 2013
- *      Author: tapio
+ *      Author: Stateplex Team
  */
 #include <iostream>
 #include "calculate.h"
