@@ -2,7 +2,7 @@
  * calculate.cpp
  *
  *  Created on: Feb 11, 2013
- *      Author: tapio
+ *      Author: Team Stateplex
  */
 
 #include "calculate.h"
