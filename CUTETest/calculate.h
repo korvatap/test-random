@@ -1,8 +1,8 @@
 /*
- * calculate.h
+ *  calculate.h
  *
  *  Created on: Feb 11, 2013
- *      Author: Stateplex Team
+ *  Author: Team Stateplex
  */
 
 #ifndef CALCULATE_H_

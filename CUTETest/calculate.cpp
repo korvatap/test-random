@@ -1,12 +1,12 @@
 /*
- * calculate.cpp
+ *  calculate.cpp
  *
  *  Created on: Feb 11, 2013
- *      Author: Stateplex Team
- *
+ *  Author: Team Stateplex
  */
 
 #include "calculate.h"
+
 
 Calculate::~Calculate() {}
 

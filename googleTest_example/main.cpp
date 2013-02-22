@@ -2,7 +2,7 @@
  * main.cpp
  *
  *  Created on: Feb 8, 2013
- *      Author: tapio
+ *      Author: Stateplex Team
  */
 #include <iostream>
 #include "calculate.h"
@@ -30,7 +30,7 @@ TEST(FunctionTests, SubstractTest)
 	Calculate ctor;
 	sum = ctor.sub(first, second);
 
-	ASSERT_EQ(9, sum);
+	ASSERT_EQ(8, sum);
 }
 
 TEST(FunctionTests, MultiplyTest)
