@@ -38,6 +38,7 @@ private:
  * @param variable as an undefined variable
  * @param variable2 as an undefined variable
 */
+
 template<class T>
 inline void changeVariables(T& variable, T& variable2)
 {

@@ -44,6 +44,7 @@ int main() {
 *
 * @param mstr an string argument that will be printed
 */
+
 void Doxygen::printMysteriousText(const string &mstr)
 {
         cout << mstr << endl;
@@ -52,6 +53,7 @@ void Doxygen::printMysteriousText(const string &mstr)
 /**
  * Prints setti variable
 */
+
 void Doxygen::printSetti()
 {
         cout << getSetti();
@@ -62,6 +64,7 @@ void Doxygen::printSetti()
  *
  * @return setti integer value
  */
+
 int Doxygen::getSetti()
 {
         return setti;
