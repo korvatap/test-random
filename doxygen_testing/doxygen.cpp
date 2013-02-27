@@ -15,11 +15,11 @@
 #include <iostream>
 
 using namespace std;
+
 int main() {
 
         int first;
 	int second;
-   //     string text = "AAAAAAA";
         
         Doxygen test;
 
@@ -39,16 +39,29 @@ int main() {
         return 0;
 }
 
+/**
+* Mysterious printing
+*
+* @param mstr an string argument that will be printed
+*/
 void Doxygen::printMysteriousText(const string &mstr)
 {
         cout << mstr << endl;
 }
 
+/**
+ * Prints setti variable
+*/
 void Doxygen::printSetti()
 {
         cout << getSetti();
 }
 
+/** 
+ * Returns the variable setti
+ *
+ * @return setti integer value
+ */
 int Doxygen::getSetti()
 {
         return setti;
