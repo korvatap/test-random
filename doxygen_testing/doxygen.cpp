@@ -19,8 +19,8 @@ using namespace std;
 int main() {
 
         int first;
-	int second;
-        
+	int second;     
+
         Doxygen test;
 
         first = 7;

@@ -40,7 +40,7 @@ private:
 */
 
 template<class T>
-inline void changeVariables(T& variable, T& variable2)
+inline void Doxygen::changeVariables(T &variable, T &variable2)
 {
         T temp;
         temp = variable;
