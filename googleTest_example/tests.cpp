@@ -8,38 +8,41 @@
 #include "calculate.h"
 #include "gtest/gtest.h"
 
+class DoxygenTest : public testing::Test {
+protected:
+	
+	virtual void SetUp() 
+	{
+		first = 345;
+	}
 
-TEST(FunctionTests, SummationTest)
-{
-	int first = 5;
-	int second = 4;
+	virtual void TearDown() { }
+
+	int first;
+	int second;
 	int sum;
+	Calculate ctor;	
+};
 
-	Calculate ctor;
+TEST_F(DoxygenTest, SummationTest)
+{
+	second = 4;
 	sum = ctor.sum(first, second);
 
-	ASSERT_EQ(9, sum);
+	ASSERT_EQ(349, sum);
 }
 
-TEST(FunctionTests, SubstractTest)
+TEST_F(DoxygenTest, SubstractTest)
 {
-	int first = 14;
-	int second = 6;
-	int sum;
-
-	Calculate ctor;
+	second = 6;
 	sum = ctor.sub(first, second);
 
-	ASSERT_EQ(8, sum);
+	ASSERT_EQ(339, sum);
 }
 
-TEST(FunctionTests, MultiplyTest)
+TEST_F(DoxygenTest, MultiplyTest)
 {
-	int first = 345;
-	int second = 345;
-	int sum;
-
-	Calculate ctor;
+	second = 345;
 	sum = ctor.multiply(first, second);
 
 	ASSERT_EQ(119025, sum);
