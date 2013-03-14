@@ -10,6 +10,9 @@
 
 class DoxygenTest : public testing::Test {
 protected:
+
+	virtual void TestCaseSetUp() { }
+	virtual void TestCaseTearDown() { }
 	
 	virtual void SetUp() 
 	{
